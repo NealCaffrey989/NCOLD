@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSetOrderForm" targetNamespace="http://www.tempuri.org/DataSetOrderForm.xsd" xmlns:mstns="http://www.tempuri.org/DataSetOrderForm.xsd" xmlns="http://www.tempuri.org/DataSetOrderForm.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DataSetOrderForm" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="TranOrderForm">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CmpltSituation" type="xs:string" minOccurs="0" />
+              <xs:element name="CmpltTime" type="xs:string" minOccurs="0" />
+              <xs:element name="Destination" type="xs:string" minOccurs="0" />
+              <xs:element name="ExtraService" type="xs:string" minOccurs="0" />
+              <xs:element name="InitialPlace" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+              <xs:element name="RFIDBarCodeNO" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalQuantity" type="xs:short" minOccurs="0" />
+              <xs:element name="TranOrderFormNO" msdata:AutoIncrement="true" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TranOrderForm" />
+      <xs:field xpath="mstns:TranOrderFormNO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

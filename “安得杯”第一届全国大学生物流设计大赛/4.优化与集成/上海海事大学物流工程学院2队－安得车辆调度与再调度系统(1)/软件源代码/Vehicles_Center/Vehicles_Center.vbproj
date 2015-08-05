@@ -1,0 +1,295 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.6030"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{164D921A-1509-4A5E-8252-D04A491E9455}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "icon.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Vehicles_Center"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Vehicles_Center"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "DAO"
+                    Guid = "{00025E01-0000-0000-C000-000000000046}"
+                    VersionMajor = "5"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmAbout.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmAbout.resx"
+                    DependentUpon = "CfrmAbout.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmAccident.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmAccident.resx"
+                    DependentUpon = "CfrmAccident.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmGPS.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmGPS.resx"
+                    DependentUpon = "CfrmGPS.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmMain.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmMain.resx"
+                    DependentUpon = "CfrmMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmMap.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmMap.resx"
+                    DependentUpon = "CfrmMap.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmStart.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmStart.resx"
+                    DependentUpon = "CfrmStart.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmTranOrderForms.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmTranOrderForms.resx"
+                    DependentUpon = "CfrmTranOrderForms.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmTranPlan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmTranPlan.resx"
+                    DependentUpon = "CfrmTranPlan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmVehicles.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmVehicles.resx"
+                    DependentUpon = "CfrmVehicles.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CfrmVehiclesControl.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CfrmVehiclesControl.resx"
+                    DependentUpon = "CfrmVehiclesControl.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DataSetGPS.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetGPS.vb"
+                />
+                <File
+                    RelPath = "DataSetGPS.vb"
+                    DependentUpon = "DataSetGPS.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "DataSetTranOrderForms.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetTranOrderForms.vb"
+                />
+                <File
+                    RelPath = "DataSetTranOrderForms.vb"
+                    DependentUpon = "DataSetTranOrderForms.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "DataSetTranPlan.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetTranPlan.vb"
+                />
+                <File
+                    RelPath = "DataSetTranPlan.vb"
+                    DependentUpon = "DataSetTranPlan.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "DataSetTranPlan.xsx"
+                    DependentUpon = "DataSetTranPlan.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "DataSetVehicles.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSetVehicles.vb"
+                />
+                <File
+                    RelPath = "DataSetVehicles.vb"
+                    DependentUpon = "DataSetVehicles.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "icon.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "mCVehiclesComm.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mMain.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mMapPoints.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mMapRoads.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

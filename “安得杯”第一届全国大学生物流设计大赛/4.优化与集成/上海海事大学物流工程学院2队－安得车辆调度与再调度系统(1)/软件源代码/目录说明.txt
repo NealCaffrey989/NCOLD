@@ -1,0 +1,9 @@
+GPS_Vehicle：GPS车载终端通讯程序
+GPSSimulator：GPS仿真器
+RFID：基于DLL库函数的RFID门禁系统控制端程序
+Storage_Center：基于串行口编程的RFID门禁系统控制端程序
+Test：一些测试用的地图文件，图片文件，XML文件等等
+UDPDebugger：基于UDP协议的网络通讯程序，用于测试软件使用
+Vehicles_Center：车辆调度与再调度系统的车辆调度中心程序
+Vehicles_Gate：在RFID损坏时，采用的人工录入的车辆门禁系统
+Web：基于Asp.net的Web信息发布

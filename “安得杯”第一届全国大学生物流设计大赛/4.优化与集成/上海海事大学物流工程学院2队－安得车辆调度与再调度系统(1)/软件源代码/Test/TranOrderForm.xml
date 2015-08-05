@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+<xsd:schema>
+<xsd:element name="dataroot">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="TranOrderForm" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+<xsd:attribute name="generated" type="xsd:dateTime"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="TranOrderForm">
+<xsd:annotation>
+<xsd:appinfo>
+<od:index index-name="PrimaryKey" index-key="TranOrderFormNO " primary="yes" unique="yes" clustered="no"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="TranOrderFormNO" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"/>
+<xsd:element name="InitialPlace" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="16"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Destination" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="16"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="CmpltTime" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="64"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="TotalQuantity" minOccurs="0" od:jetType="integer" od:sqlSType="smallint" type="xsd:short"/>
+<xsd:element name="ExtraService" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="CmpltSituation" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="16"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="RFIDBarCodeNO" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Note" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2007-04-14T10:46:55">
+<TranOrderForm>
+<TranOrderFormNO>86</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>XC</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>250</TotalQuantity>
+<RFIDBarCodeNO>E0040000068C8C01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>87</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>BP</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>200</TotalQuantity>
+<RFIDBarCodeNO>E00400006B7E7901</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>88</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>CH</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>150</TotalQuantity>
+<RFIDBarCodeNO>E0040000CB8C8C01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>89</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>AQ</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>200</TotalQuantity>
+<RFIDBarCodeNO>E00400007DB78C01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>90</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>HB</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>200</TotalQuantity>
+<RFIDBarCodeNO>E0040000B7CA8C01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>91</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>FY</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>300</TotalQuantity>
+<RFIDBarCodeNO>E00400003DD78C01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>92</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>HB</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>200</TotalQuantity>
+<RFIDBarCodeNO>E0040000D2747901</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>93</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>AQ</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>200</TotalQuantity>
+<RFIDBarCodeNO>E00400001D507B01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>95</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>CH</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>100</TotalQuantity>
+<RFIDBarCodeNO>E0040000B0858C01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>96</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>FY</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>300</TotalQuantity>
+<RFIDBarCodeNO>E004000064BB8C01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>97</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>CH</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>200</TotalQuantity>
+<RFIDBarCodeNO>E0040000055A7B01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>98</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>LA</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>400</TotalQuantity>
+<RFIDBarCodeNO>E00400007F4E7B01</RFIDBarCodeNO>
+</TranOrderForm>
+<TranOrderForm>
+<TranOrderFormNO>99</TranOrderFormNO>
+<InitialPlace>HF</InitialPlace>
+<Destination>XC</Destination>
+<CmpltTime>2007-5-20</CmpltTime>
+<TotalQuantity>200</TotalQuantity>
+<RFIDBarCodeNO>E0040000737F7901</RFIDBarCodeNO>
+</TranOrderForm>
+</dataroot>
+</root>
